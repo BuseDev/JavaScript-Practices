@@ -61,6 +61,35 @@ function myfunction(value){
 }
 
 
+//adding array element ----> push()
+
+fruits.push("Lemon");
+
+//or
+
+fruits[fruits.length] = "Lemon";
+
+//popped out element -----> pop()
+
+fruits.pop();
+
+
+//change element 
+ 
+//fruits ----> Banana, Orange, Strawberry, Mango
+fruits[2] = "Kiwi"; //fruits ----> Banana, Orange, Kiwi, Mango
+
+
+//splice()
+
+//fruits ----> Banana, Orange, Strawberry, Mango
+fruits.splice(2,0,"Lemon","Kiwi"); //Banana, Orange, Lemon, Kiwi, Strawberry, Mango
+fruits.splice(2,2,"Lemon","Kiwi"); //Banana, Orange, Lemon, Kiwi ----> Strawberry and Mango removed
+
+//sort() and reverse()
+//fruits ----> Banana, Orange, Strawberry, Mango
+fruits.reverse(); //fruits ----> Mango, Strawberry, Orange, Banana
+fruits.sort(); //fruits ----> Banana, Mango, Orange, Strawberry
 
 
 

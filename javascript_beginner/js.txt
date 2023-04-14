@@ -6,3 +6,4 @@ node.js
 
 w3schools output atlandı
 w3schools events atlandı
+array iteration ve array const atlandı
