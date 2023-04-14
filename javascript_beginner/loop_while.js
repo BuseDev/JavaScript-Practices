@@ -23,3 +23,34 @@ do{
 
 console.log(txt);
 
+
+
+//comparing for and while
+
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let k = 0;
+let str = "";
+
+for(;cars[k];){
+    str += cars[k] + " ";
+    k++;
+}console.log(str);
+
+
+let m = 0;
+let str2 = "";
+
+while(cars[m]){
+    str2 += cars[m] + " ";
+    m++;
+}console.log(str2);
+
+
+
+
+
+
+
+
+
+
