@@ -39,5 +39,14 @@ fruits.forEach(function(value){
 console.log(text); //banana orange mango cherry kiwi pineapple
 
 
+//values() method
+
+let txt = "";
+
+for(const x of fruits.values()){
+    txt += x + " ";
+}console.log(txt);
+
+
 
 
